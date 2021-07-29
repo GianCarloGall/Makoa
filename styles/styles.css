@@ -15,6 +15,7 @@ header{
     left: 0;
     overflow: hidden;
     transition: all 1s;
+    z-index: 20;
 }
 header nav{
     position: absolute;
@@ -24,6 +25,7 @@ header nav{
     height: 60px;
     line-height: 30px;
     width: 100%;
+    z-index: 30;
 }
 section{
     background: #c6302c;
@@ -36,13 +38,54 @@ section{
     left: 0;
     right: 0;
 }
+p{
+    font-family: 'Gowun Dodum', sans-serif;
+}
+/*________________________________________________________*/
+/*Artículos*/
 article{
     display: inline-block;
     padding: 15px;
     width: 45%;
     margin-right: 10%;
     text-align: justify;
+}
+.left__article{
+    display: inline-block;
+    padding: 15px;
+    width: 40%;
+    text-align: justify;
 
+}
+.right__article{
+    position: absolute;
+    display: inline-block;
+    padding: 15px;
+    width: 35%;
+    text-align: justify;
+    background: #f1f1f1;
+    color: black;
+    border-radius: 10px;
+    z-index: 10;
+}
+.alt__article{
+    background: #f1f1f1;
+    color: black;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+.article{
+    text-align: justify;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+.article:hover, .alt__article:hover{
+    box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.3);
 }
 /*________________________________________________________*/
 /*Barra Lateral*/
@@ -120,6 +163,15 @@ body.sticky-header header .logo{
     margin-top: 5%;;
     letter-spacing: 2px;
     color: white;
+}
+.fuente__subtitulo_alt{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2rem;
+    text-shadow: rgba(0,0,0,0.3) 2px 3px;
+    margin: 0;
+    margin-top: 5%;;
+    letter-spacing: 2px;
+    color: #c6302c;
 }
 /*________________________________________________________*/
 /*Imagenes*/
