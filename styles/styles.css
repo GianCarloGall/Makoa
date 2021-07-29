@@ -99,12 +99,14 @@ body.sticky-header header .logo{
     letter-spacing: 5px;
     color: #c6302c;
     transition: all 1s ease;
+    cursor: default;
 }
 .fuente__slogan{
     font-family: 'PT Sans', sans-serif;
     font-size: 1rem;
     text-shadow: #D9D9D9 3px 3px;
     text-align: center;
+    cursor: default;
     margin: 0;
     margin-bottom: 20%;
     color: #c6302c;
