@@ -448,7 +448,7 @@ ul.slider li:target{
         background: #D9D9D9;
         align-items: left;
         bottom: 0;
-        height: 60px;
+        height: 100px;
         line-height: 30px;
         width: 100%;
         z-index: 30;
@@ -459,10 +459,15 @@ ul.slider li:target{
         font-family: 'PT Sans', sans-serif;
         font-size: 0.9em;
         color: #c6302c;
-        padding: 7px 1px;
+        padding: 10px 15px;
         margin-left: 1px;
         line-height: 1;
         border-top: 2px solid #D9D9D9;
         transition: all 0.5s;
     }
+    
+body.sticky-header header{
+    height: 92px;
+    background: #f1f1f1;
+}
 }
