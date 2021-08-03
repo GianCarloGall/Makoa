@@ -453,13 +453,14 @@ ul.slider li:target{
         width: 100%;
         z-index: 30;
     }
-        header nav a{
+    header nav a{
         display: inline-block;
         text-decoration: none;
         font-family: 'PT Sans', sans-serif;
-        font-size: 1em;
+        font-size: 0.9em;
         color: #c6302c;
-        padding: 5px 10px;
+        padding: 7px 1px;
+        margin-left: 1px;
         line-height: 1;
         border-top: 2px solid #D9D9D9;
         transition: all 0.5s;
