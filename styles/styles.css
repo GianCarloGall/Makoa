@@ -112,7 +112,7 @@ header nav a{
     text-decoration: none;
     font-family: 'PT Sans', sans-serif;
     color: #c6302c;
-    padding: 21px 45px;
+    padding: 22px 10px;
     line-height: 1;
     border-top: 2px solid #D9D9D9;
     transition: all 0.5s;
@@ -413,7 +413,12 @@ ul.slider li:target{
     background: white;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 850px) {
+    .logo{
+        display: none;
+    }
+}
+@media only screen and (max-width: 500px) {
     section{
         background: #c6302c;
         color: white;
@@ -448,7 +453,7 @@ ul.slider li:target{
         background: #D9D9D9;
         align-items: left;
         bottom: 0;
-        height: 100px;
+        height: 110px;
         line-height: 30px;
         width: 100%;
         z-index: 30;
@@ -457,17 +462,16 @@ ul.slider li:target{
         display: inline-block;
         text-decoration: none;
         font-family: 'PT Sans', sans-serif;
-        font-size: 0.9em;
+        font-size: 1em;
         color: #c6302c;
-        padding: 10px 15px;
-        margin-left: 1px;
+        padding: 10px 10px;
+        margin-left: 2px;
         line-height: 1;
         border-top: 2px solid #D9D9D9;
         transition: all 0.5s;
     }
-    
-body.sticky-header header{
-    height: 92px;
-    background: #f1f1f1;
-}
+    body.sticky-header header{
+        height: 102px;
+        background: #f1f1f1;
+    }
 }
