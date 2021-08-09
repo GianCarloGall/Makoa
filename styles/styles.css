@@ -553,7 +553,7 @@ ul.slider li:target{
         display: flex;
         width: 500%;
         padding: 0;
-        animation: cambio 60s infinite;
+        animation: cambio 45s infinite;
         animation-timing-function: ease-in;
     }
     .slide ul li img{
