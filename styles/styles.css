@@ -50,27 +50,19 @@ article{
     margin-right: 10%;
     text-align: justify;
 }
-.left__article{
-    display: inline-block;
-    padding: 25px;
-    width: 30%;
-    margin-top: 5%;
-    text-align: justify;
-    position: fixed;
-
-}
 .right__article{
     position: absolute;
     display: inline-block;
-    padding: 25px;
-    width: 35%;
     margin-left: 45%;
-    margin-bottom: 5%;
+    padding: 25px;
+    padding-right: 27px;
+    width: 30%;
+    margin-top: 5%;
     text-align: justify;
     background: #f1f1f1;
     color: black;
     border-radius: 10px;
-    z-index: 10;
+    z-index: 15;
 }
 .alt__article{
     display: inline-block;
@@ -232,6 +224,14 @@ body.sticky-header header .logo{
     position: fixed;
     width: 35%;
     margin-top: 5%;
+}
+.images__article_top{
+    display: inline-block;
+    position: fixed;
+    width: 25%;
+    margin-left: 50%;
+    margin-top: 5%;
+    z-index: 10;
 }
 .social__image{
     width: 14%;
@@ -424,11 +424,17 @@ ul.slider li:target{
         color: white;
         padding-left: 1rem;
         padding-right: 1rem;
-        padding-top: 2rem;
+        padding-top: 1rem;
         padding-bottom: 4rem;
         top: 0;
         left: 0;
         right: 0;
+    }
+    article{
+        width: 88%;
+    }
+    header{
+        height: 12rem;
     }
     /*_______________________________________________*/
     /*Fuentes*/
@@ -439,6 +445,9 @@ ul.slider li:target{
     /*_______________________________________________*/
     /*Imagenes*/
     .logo{
+        display: none;
+    }
+    .images__article{
         display: none;
     }
     /*_______________________________________________*/
@@ -453,7 +462,7 @@ ul.slider li:target{
         background: #D9D9D9;
         align-items: left;
         bottom: 0;
-        height: 115px;
+        height: 42px;
         line-height: 30px;
         width: 100%;
         z-index: 30;
@@ -464,14 +473,14 @@ ul.slider li:target{
         font-family: 'PT Sans', sans-serif;
         font-size: 1em;
         color: #c6302c;
-        padding: 10px 10px;
+        padding: 13px 2px;
         margin-left: 2px;
         line-height: 1;
         border-top: 2px solid #D9D9D9;
         transition: all 0.5s;
     }
     body.sticky-header header{
-        height: 107px;
+        height: 34px;
         background: #f1f1f1;
     }
 }
