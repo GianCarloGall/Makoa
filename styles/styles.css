@@ -437,11 +437,32 @@ ul.slider li:target{
     header{
         height: 12rem;
     }
+    .right__article{
+        position: relative;
+        display: block;
+        padding: 25px;
+        width: 85%;
+        margin-left: 0%;
+        margin-top: 5%;
+        text-align: justify;
+        background: #f1f1f1;
+        color: black;
+        border-radius: 10px;
+        z-index: 15;
+    }
     /*_______________________________________________*/
     /*Fuentes*/
     .fuente__title{
         font-size: 3rem;
         margin-top: 10%;
+    }
+    .fuente__subtitulo{
+        font-size: 1.3rem;
+        text-shadow: rgba(0,0,0,0.3) 2px 1px;
+    }
+    .fuente__subtitulo_alt{
+        font-size: 1.3rem;
+        text-shadow: rgba(0,0,0,0.3) 2px 1px;
     }
     /*_______________________________________________*/
     /*Imagenes*/
@@ -456,6 +477,9 @@ ul.slider li:target{
         position: fixed;
         margin-top: 40px;
         margin-left: 20%;
+    }
+    .images__article_top{
+        display: none;
     }
     /*_______________________________________________*/
     /*Margenes*/
