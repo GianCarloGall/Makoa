@@ -515,10 +515,11 @@ ul.slider li:target{
     .ubicacion__carrousel{
         position: absolute;
         display: block;
-        width: 80%;
-        height: 50%;
+        width: 75%;
+        height: 45%;
         padding: 20px;
         color: white;
+        padding-bottom: 5rem;
     }
     .slide li{
         text-align: justify;
@@ -528,8 +529,11 @@ ul.slider li:target{
         display: flex;
         width: 500%;
         padding: 0;
-        animation: cambio 35s infinite;
+        animation: cambio 60s infinite;
         animation-timing-function: ease-in;
+    }
+    .slide ul li img{
+        margin-left: 10%;
     }
     #responsive{
         display: none;
