@@ -450,6 +450,12 @@ ul.slider li:target{
     .images__article{
         display: none;
     }
+    .social__image{
+        width: 50%;
+        position: fixed;
+        margin-top: 40px;
+        margin-left: 20%;
+    }
     /*_______________________________________________*/
     /*Margenes*/
     .margin__title{
